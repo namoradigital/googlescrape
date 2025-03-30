@@ -3,28 +3,24 @@ This Python-based application is designed to automate the extraction of business
 It enables users to collect detailed information about businesses, such as names, addresses, contact details, reviews, and geographic coordinates, and export the data into structured formats (Excel/CSV) for further analysis.
 
 ## Key Features
+
 Data Extraction:
-
 Scrapes business names, addresses, websites, phone numbers, review counts, average ratings, and latitude/longitude coordinates.
-
 Handles dynamic content loading by simulating user interactions like scrolling.
 
 ## Input Flexibility:
 
 Accepts search queries via command-line arguments (e.g., -s "Boston dentist") or a text file (input.txt).
-
 Supports scraping a specified number of results or all available listings.
 
 ## Automation with Playwright:
 
 Uses headless or visible browser modes to interact with Google Maps.
-
 Automates search execution, result navigation, and data extraction.
 
 ## Data Export:
 
 Saves scraped data to Excel (.xlsx) and CSV files in an output folder.
-
 Utilizes pandas for data structuring and openpyxl for Excel file generation.
 
 ## Error Handling:
