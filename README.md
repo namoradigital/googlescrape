@@ -15,7 +15,7 @@ Accepts search queries via command-line arguments (e.g., -s "Boston dentist") or
 
 Supports scraping a specified number of results or all available listings.
 
-Automation with Playwright:
+## Automation with Playwright:
 
 Uses headless or visible browser modes to interact with Google Maps.
 
@@ -32,25 +32,19 @@ Utilizes pandas for data structuring and openpyxl for Excel file generation.
 Includes basic error logging to prevent crashes during scraping.
 
 ## How It Works
-Search Execution: The tool navigates to Google Maps, enters a search term, and loads all relevant business listings.
-
-Dynamic Scrolling: Automatically scrolls through the page to ensure all results are loaded.
-
-Data Collection: Clicks on each listing to extract detailed information and stores it in a structured format.
-
-File Export: Compiles data into a pandas DataFrame and exports it to user-friendly formats.
+* Search Execution: The tool navigates to Google Maps, enters a search term, and loads all relevant business listings.
+* Dynamic Scrolling: Automatically scrolls through the page to ensure all results are loaded.
+* Data Collection: Clicks on each listing to extract detailed information and stores it in a structured format.
+* File Export: Compiles data into a pandas DataFrame and exports it to user-friendly formats.
 
 ## Use Cases
-Market Research: Analyze competitors or identify trends in a specific location.
-
-Lead Generation: Collect contact details for sales outreach.
-
-Local SEO: Gather review data to improve business rankings.
+* Market Research: Analyze competitors or identify trends in a specific location.
+* Lead Generation: Collect contact details for sales outreach.
+* Local SEO: Gather review data to improve business rankings.
 
 ## Requirements
-Python 3.x, Playwright, pandas, openpyxl.
-
-Browser binaries installed via playwright install.
+* Python 3.x, Playwright, pandas, openpyxl.
+* Browser binaries installed via playwright install.
 
 ## Ethical Note
 This tool should be used responsibly, adhering to Google Maps' terms of service and respecting website scraping policies. Avoid aggressive scraping to prevent IP blocking.
