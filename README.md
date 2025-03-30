@@ -43,6 +43,7 @@ Includes basic error logging to prevent crashes during scraping.
 * Local SEO: Gather review data to improve business rankings.
 
 ## Requirements
+* Python Environmneent  python - venv venv ----> source venv/bin/activate
 * Python 3.x, Playwright, pandas, openpyxl.
 * Browser binaries installed via playwright install.
 
